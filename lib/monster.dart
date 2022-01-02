@@ -1,8 +1,5 @@
-class Monster {
-  int? _healthPoint;
+import 'package:app/character.dart';
 
-  int? get getHealthPoint => _healthPoint;
-  set setHealthPoint(int value) => _healthPoint = value;
-
+class Monster extends Character {
   String eatHuman() => "Grr.. Delicious.. Yummy..";
 }

@@ -1,8 +1,5 @@
-class Hero {
-  int? _healthPoint;
+import 'package:app/character.dart';
 
-  int? get getHealthPoint => _healthPoint;
-  set setHealthPoint(int value) => _healthPoint = value;
-
+class Hero extends Character {
   String killAMonster() => "Take this!!";
 }
