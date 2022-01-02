@@ -1,3 +1,5 @@
 import 'package:app/monster.dart';
 
-class Monster_kecoa extends Monster {}
+class MonsterKecoa extends Monster {
+  String fly() => "Syuuung...";
+}
